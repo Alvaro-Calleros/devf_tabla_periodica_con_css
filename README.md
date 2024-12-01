@@ -1,4 +1,4 @@
-# Tabla Periódica de los Elementos (CSS puro)
+# Tabla Periódica de los Elementos
 
 **Descripción:**
 
