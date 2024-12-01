@@ -1,0 +1,325 @@
+@font-face {
+  font-family: 'ABeeZee';
+  src: url('./fuentes/abeezee-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #d0f8fd;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 65px;
+  text-transform: uppercase;
+  background-color: #d0f8fd;
+  padding: 10px;
+}
+
+.container-wrapper {
+  display: flex;
+}
+
+.containerLadoIzquierdo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-right: 4px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.vacio {
+    width: 15px;
+    height: 15px;
+    background-color: #d0f8fd;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    color: black;
+    box-sizing: border-box;
+    padding-left: 4px;
+    position: relative; 
+}
+
+/* Resto de tu CSS permanece igual */
+
+.numeroGrupoLado {
+  width: 15px;
+  height: 60px;
+  background-color: #d0f8fd;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  color: black;
+  box-sizing: border-box;
+  padding-left: 4px;
+  position: relative; 
+}
+
+.numsIzq {
+  font-size: 12px;
+  text-align: right;
+  color: black; 
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(18, 60px); 
+  grid-template-rows: repeat(9.65, 60px);   
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.elementTop {
+  width: 60px; 
+  height: 15px; 
+  background-color: #d0f8fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: black;
+  box-sizing: border-box;
+}
+.element1 {
+  width: 60px; 
+  height: 60px; 
+  background-color: #f48424 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: black;
+  box-sizing: border-box;
+}
+.elementNumGrupo {
+  width: 60px; 
+  height: 60px; 
+  background-color: #d0f8fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: black;
+  box-sizing: border-box;
+}
+
+.element0 {
+  width: 60px; 
+  height: 60px; 
+  background-color:  #d0f8fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  box-sizing: border-box;
+}
+.elementEspacioChaparro {
+  width: 60px; 
+  height: 24px; 
+  background-color:  #d0f8fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color:black;
+  box-sizing: border-box;
+}
+.elementAzulMarino { 
+  width: 60px; 
+  height: 60px; 
+  background-color:  #082c4c ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  box-sizing: border-box;
+}
+.elementAzulito { 
+  width: 60px; 
+  height: 60px; 
+  background-color:  #088ccc ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  box-sizing: border-box;
+}
+.elementAmarillo { 
+  width: 60px; 
+  height: 60px; 
+  background-color:  #fcbc14 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: black;
+  box-sizing: border-box;
+}
+.elementVerdeF { 
+  width: 60px; 
+  height: 60px; 
+  background-color:  #086c34 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  box-sizing: border-box;
+}
+.elementVerdeAmarillo { 
+  width: 60px; 
+  height: 60px; 
+  background-color: #a8b424 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: black;
+  box-sizing: border-box;
+}
+
+.elementVerdeRaro { 
+  width: 60px; 
+  height: 60px; 
+  background-color: #d0d48c ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: black;
+  box-sizing: border-box;
+}
+.elementVerdeAzul { 
+  width: 60px; 
+  height: 60px; 
+  background-color: #68a484 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: black;
+  box-sizing: border-box;
+}
+.elementRojo { 
+  width: 60px; 
+  height: 60px; 
+  background-color:  #f01c44 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  box-sizing: border-box;
+}
+.elementMorado { 
+  width: 60px; 
+  height: 60px; 
+  background-color: #7c1c74 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  box-sizing: border-box;
+}
+
+.element1,
+.elementAzulMarino,
+.elementAzulito,
+.elementAmarillo,
+.elementVerdeF,
+.elementVerdeAmarillo,
+.elementVerdeRaro,
+.elementVerdeAzul,
+.elementRojo,
+.elementMorado {
+    transition: transform 0.3s ease; 
+}
+.element1:hover,
+.elementAzulMarino:hover,
+.elementAzulito:hover,
+.elementAmarillo:hover,
+.elementVerdeF:hover,
+.elementVerdeAmarillo:hover,
+.elementVerdeRaro:hover,
+.elementVerdeAzul:hover,
+.elementRojo:hover,
+.elementMorado:hover {
+    transform: scale(1.3);
+}
+
+.atomic-number {
+  position: absolute;
+  top: 4px; 
+  left: 4px; 
+  font-size: 9px; 
+}
+
+.atomic-mass {
+  position: absolute;
+  top: 4px; 
+  right: 4px; 
+  font-size: 9px; 
+}
+
+.symbol {
+  font-size: 24px; 
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  position: relative;
+  transform: translateY(6px); 
+}
+.symbol2 {
+  font-size: 24px; 
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  position: relative;
+  transform: translateY(6px); 
+}
+
+.name {
+  font-size: 9px; 
+  margin-top: 1.5px; 
+  text-align: center;
+  position: relative;
+  transform: translateY(6px); 
+}
+
+.numeroGrupo {
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  bottom: 4px;
+  transform: translateY(0); 
+}
