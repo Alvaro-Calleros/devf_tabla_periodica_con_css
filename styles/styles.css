@@ -99,11 +99,11 @@ body {
   width: 60px; 
   height: 60px; 
   background-color: #f48424 ;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: flex; /*Ya teniamos Flexbox, pero a continuacion vienen las mejoras*/
+  flex-direction: column; /*mejoramos el orden de los elementos*/
+  align-items: center; /*se alinearon correctamente*/
   justify-content: center;
-  position: relative;
+  position: relative; /*se agrego positon relative*/
   color: black;
   box-sizing: border-box;
 }
